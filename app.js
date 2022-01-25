@@ -9,7 +9,8 @@ const mongoose = require('mongoose');
 var bodyParser = require('body-parser')
 
 mongoose.connect('mongodb://localhost/thisthis', {useNewUrlParser: true});
-const port = 8000;
+//const port = 8000;
+const port = process.env.PORT || 8000
 
 //DEFINE MONGOOSE SCHEMA 
 const contactSchema = new mongoose.Schema({
