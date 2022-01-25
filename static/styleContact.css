@@ -1,0 +1,20 @@
+#forms .myinput{
+
+    display: block;
+    width: 500px;
+    margin: 6px auto;
+    padding: 7px;
+}
+#forms .btn{
+    display: block;
+    width: 100px;
+    margin:6px auto;
+    padding: 5px;
+    
+}
+#forms h3{
+    text-align: center;
+}
+#forms{
+    margin-top: 200px;
+}

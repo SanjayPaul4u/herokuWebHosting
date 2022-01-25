@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#main{
+    padding: 25px 5px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#container{
+    height: 650px;
+    background-color: yellow;
+    padding: 10px 10px;
+}
+#container p{
+    color: red;
+   
+}
